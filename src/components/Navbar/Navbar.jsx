@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { DivLogo, Logo, Menu, MenuItem, Nav } from "./NavbarStyles";
-import logoGym from "../../assets/assetsNavbar/logoGym.webp";
+import LogoGym from "../../assets/assetsNavbar/LogoGym.webp";
 
 const Navbar = () => {
   return (
     <Nav>
       <Link to="/">
-        <Logo src={logoGym} alt="logo" />
+        <Logo src={LogoGym} alt="logo" />
       </Link>
 
       <Menu>

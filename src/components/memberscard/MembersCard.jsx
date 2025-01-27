@@ -1,26 +1,10 @@
 import React from "react";
-import {
-  MembersContainer,
-  MemberCard,
-  ContentCard,
-  CreateMember,
-} from "./MembersCardStyles";
+import { MembersContainer, MemberCard, ContentCard } from "./MembersCardStyles";
 import { membersData } from "../data/DataMembers";
-import Button from "../../UI/Buttons/Buttons";
-import { Link } from "react-router-dom";
 
 const MembersCard = () => {
-  const handleCreateMember = () => {
-    alert("Create member");
-  };
-
   return (
     <>
-      <CreateMember>
-        <Link to="/members/create">
-          <Button onClick={handleCreateMember}>Create member</Button>
-        </Link>
-      </CreateMember>
       <MembersContainer>
         {membersData.map((member) => (
           <MemberCard key={member.id}>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CreateMembersdiv = styled.div`
+export const CreateMembersdiv = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +19,10 @@ export const CreateMembersForm = styled.form`
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 50%;
+  text-align: center;
+`;
+export const Logo = styled.img`
+  width: 100px;
 `;
 
 export const TitleForm = styled.h2`
