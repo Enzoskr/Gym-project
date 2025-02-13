@@ -5,6 +5,7 @@ import NotFound from "../pages/Notfound/NotFound";
 import Plans from "../pages/plans/Plans";
 import Members from "../pages/members/Members";
 import CreateMembers from "../pages/createmembers/CreateMembers";
+import Rutinas from "../pages/Rutinas/Rutinas";
 
 function Routes() {
   return (
@@ -12,6 +13,7 @@ function Routes() {
       <Route path="/" element={<Home />} />
       <Route path="/plans" element={<Plans />} />
       <Route path="members" element={<Members />} />
+      <Route path="Rutinas" element={<Rutinas />} />
       <Route path="members/create" element={<CreateMembers />} />
       <Route path="*" element={<NotFound />} />
     </ReactDomRoutes>
